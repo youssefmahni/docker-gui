@@ -7,7 +7,7 @@ import java.awt.event.ActionListener;
 public class Home extends JFrame implements ActionListener {
     Home() {
         JLabel label1 = new JLabel();
-        ImageIcon logo = new ImageIcon("/home/youssef/IdeaProjects/docker-gui/src/logo.png");
+        ImageIcon logo = new ImageIcon("/home/youssef/IdeaProjects/docker-gui-final/src/logo.png");
         label1.setIcon(logo);
         label1.setBorder(new EmptyBorder(140,10,10,10));
         label1.setVerticalAlignment(JLabel.CENTER);
